@@ -23,8 +23,8 @@ Esta herramienta, creada con Node.js, lee y analiza archivos en formato Markdown
 
 Como punto de partida para la ejecución de este proyecto, se elaboró la lógica y se diseñó un diagrama de flujo para organizar el proceso de la API.
 
-* [Diagrama de flujo MD-LINKS]("https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.)
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FUjDPyqOxeUQakCHXf0YpIe%2FLibrer%25C3%25ADa---md---links%3Fnode-id%3D0%253A1%26t%3DSfzo2mmKguTyp1L8-1" allowfullscreen></iframe>
+##### Click en la imagen para ver diagrama de flujo MD-LINKS
+[![Ver Diagrama de flujo MD-LINKS](https://i.imgur.com/Is0S52l.png)](https://www.figma.com/file/UjDPyqOxeUQakCHXf0YpIe?embed_host=share&kind=&node-id=0%3A1&t=Sfzo2mmKguTyp1L8-1&viewer=1)
 
 
 Si pasamos la opción que incluye `--validate`, el módulo debe hacer una petición HTTP para averiguar si el link funciona o no. Si el link resulta en una redirección a una URL que responde ok, entonces consideraremos el link como ok.
@@ -59,7 +59,7 @@ Estas instrucciones le permitirán instalar la biblioteca en su computadora loca
 Puedes hacer la instalación por `npm`:
 
 ```sh
-npm i md-links-gpz
+npm install githubname/reponame
 ```
 
 ### Ejecución
