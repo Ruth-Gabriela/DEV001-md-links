@@ -1,9 +1,20 @@
 const existsPath = require("./existsPath.js");
 const validatePath = require("./validatePath.js");
 const { readFileMd } = require("./readFile.js");
+const { getLinksMd, validateUrls } = require("./regexLinks.js");
+const getHttpStatus = require("./httpRequests.js");
+const { getMdArray, pathIsDirectory, readDirectory, validateExtName } = require("./getMdArray.js");
+
 
 module.exports = {
-  validatePath,
   existsPath,
-  readFileMd
+  validatePath,
+  readFileMd,
+  getLinksMd,
+  validateUrls,
+  getHttpStatus,
+  getMdArray,
+  pathIsDirectory,
+  readDirectory,
+  validateExtName,
 };
