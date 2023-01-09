@@ -3,9 +3,9 @@
 ## Índice
 
 * [1. Introdución:](#1-Introdución)
-* [2. Proceso de desarrollo:](#2-Proceso-de-desarrollo:)
-* [3. Instrucciones de uso:](#3-Instrucciones-de-uso:)
-* [4. Dependencias y Herramientas:](#4-Dependencias-y-Herramientas:)
+* [2. Proceso de desarrollo:](#2-Proceso-de-desarrollo)
+* [3. Instrucciones de uso:](#3-Instrucciones-de-uso)
+* [4. Dependencias y Herramientas:](#4-Dependencias-y-Herramientas)
 
 ***
 
@@ -25,6 +25,7 @@ Como punto de partida para la ejecución de este proyecto, se elaboró la lógic
 
 * [Diagrama de flujo MD-LINKS]("https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.)
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FUjDPyqOxeUQakCHXf0YpIe%2FLibrer%25C3%25ADa---md---links%3Fnode-id%3D0%253A1%26t%3DSfzo2mmKguTyp1L8-1" allowfullscreen></iframe>
+
 
 Si pasamos la opción que incluye `--validate`, el módulo debe hacer una petición HTTP para averiguar si el link funciona o no. Si el link resulta en una redirección a una URL que responde ok, entonces consideraremos el link como ok.
 
